@@ -8,6 +8,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String sayHello() {
+        //test comment
         return "hello";
     }
 }
